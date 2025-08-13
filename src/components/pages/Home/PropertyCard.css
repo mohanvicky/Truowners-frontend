@@ -1,0 +1,23 @@
+/* PropertyCard.css - Minimal overrides */
+.property-card-container {
+  height: 100%;
+}
+
+/* Custom scrollbar for amenities if needed */
+.amenities-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.amenities-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.amenities-scroll::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.amenities-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
